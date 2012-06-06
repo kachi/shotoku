@@ -1,0 +1,34 @@
+
+ /*---------------------------------------------*/
+/*_________for ie______________________________*/
+	.ie6 .index_article section {width: 300px ;height: auto; display:block; float: left ;}
+	.ie6 .index_article section a{width: 300px ;height: auto ; display:block; }
+	.ie6 .index_article section img{width: 300px ;height: 100% ;}
+	.ie6 .container .footer{width: 960px ;}
+	.ie6 .container .footer ul li.one-third,
+	.ie6 .container .footer ul .widget {width: 300px ;  margin-left: 2px;display: block;  float: left ;}
+	.ie6 .container .footer ul li.one-third p{width: 300px ; }
+	.ie6 ul.menu li ul{position: absolute ;top:20px;left:-32.8%;width: 940px ;}
+	.ie6 .container .single_article section .input-center{margin: 0 2px ;}
+	.ie6 .container time{width: auto ;margin: 0 ;padding: 0 ;overflow: hidden; height: 1%;}
+	.ie6 .container h1 a,
+	.ie6 .container h2 a,
+	.ie7 h1 a,
+	.ie7 h2 a,
+	.ie8 h1 a,
+	.ie8 h2 a{text-decoration: none;}
+	.ie7 ul.menu li ul{top: 23px ;}
+	.ie8 .index_article section a{width: 300px ;height: auto ;}
+	.ie8 .index_article section img{width: 300px ;height: auto ;}
+	.ie6 img,
+	.ie7 img,
+	.ie8 img{-ms-interpolation-mode: bicubic;}
+	.ie6 .fb_fangate_file ,
+	.ie6 .fb_fangate_file .eleven{width: 519px ;margin: 0 ;padding: 0 ;border: 0 ;}
+	.ie6 .fb_fangate_file img{width:expression(document.body.clientWidth > 510? "511px" : "auto");margin: 0 ;padding: 0 ;border: 0 ;}
+	.ie6 .fb_fangate_file *{width: auto; }
+	.ie7 .fb_fangate_file *{width:expression(document.body.clientWidth > 520? "519px" : "auto");}
+	.ie8 .fb_fangate_file ,
+	.ie8 .fb_fangate_file *{width: auto; height: auto ;}
+		/* no more IE...  */
+
